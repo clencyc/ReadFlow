@@ -15,7 +15,7 @@ object RetrofitClient {
 
     // Default: use your machine's local IP for physical device
     // For emulator use: http://10.0.2.2:8000/
-    const val DEFAULT_URL = "http://172.16.10.164:8000/"
+    const val DEFAULT_URL = "https://readflow-w31r.onrender.com/"
 
     private val loggingInterceptor = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BASIC
